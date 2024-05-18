@@ -1,0 +1,108 @@
+# Maven target directory
+/target/
+
+# Maven specific files
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# IntelliJ IDEA specific files
+/.idea/
+/.idea/**/*
+*.iws
+*.iml
+*.ipr
+
+# User-specific files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS-specific files
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*.pid
+*.seed
+
+# Log files
+*.log
+
+# Binary files
+*.class
+*.war
+*.ear
+*.jar
+
+# Generated files
+*.bak
+*.tmp
+*.out
+
+# Ignore classpath file (Eclipse IDE)
+.classpath
+
+# Ignore project file (Eclipse IDE)
+.project
+
+# Ignore IDEA project files
+*.idea/
+
+# Ignore other IDE specific files
+*.vscode/
+
+# Ignore temporary files
+tmp/
+temp/
+
+# Ignore the gradle directory
+.gradle
+
+# Ignore local environment settings
+.env
+
+# Ignore Node.js build directories
+node_modules/
+dist/
+build/
+
+# Ignore temporary and build files
+/tmp
+*.tmp
+*.temp
+*.out
+
+# Ignore Maven wrapper files
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# Ignore specific files
+src/test/resources/**/surefire-reports/
+src/test/resources/**/failsafe-reports/
+
+# Ignore OS generated files
+*.swp
+*~
+
+# Ignore various IDE specific files
+.idea/
+.project
+.classpath
+.cxx/
+.gradle/
+build/
+
