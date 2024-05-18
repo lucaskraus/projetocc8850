@@ -5,10 +5,11 @@
  */
 package Model.DAO;
 
-import Model.VendaItem;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+
+import main.java.com.cc8850.projeto.Model.VendaItem;
 
 /**
  *

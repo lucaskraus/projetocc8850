@@ -5,18 +5,19 @@
  */
 package Model.DAO;
 
-import Model.ClienteCompra;
-import Model.ClientePF;
-import Model.ClientePJ;
-import Model.ItemVendido;
-import Model.Venda;
-import Model.VendaItem;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+
+import main.java.com.cc8850.projeto.Model.ClienteCompra;
+import main.java.com.cc8850.projeto.Model.ClientePF;
+import main.java.com.cc8850.projeto.Model.ClientePJ;
+import main.java.com.cc8850.projeto.Model.ItemVendido;
+import main.java.com.cc8850.projeto.Model.Venda;
+import main.java.com.cc8850.projeto.Model.VendaItem;
 
 /**
  *

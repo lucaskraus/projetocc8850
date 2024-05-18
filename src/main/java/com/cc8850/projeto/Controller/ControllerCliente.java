@@ -5,9 +5,10 @@
  */
 package Controller;
 
-import Model.DAO.DAOCliente;
-import Model.Cliente;
 import java.util.ArrayList;
+
+import main.java.com.cc8850.projeto.Model.Cliente;
+import main.java.com.cc8850.projeto.Model.DAO.DAOCliente;
 
 /**
  *

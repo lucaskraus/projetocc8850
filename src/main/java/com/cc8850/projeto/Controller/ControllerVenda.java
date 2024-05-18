@@ -5,11 +5,12 @@
  */
 package Controller;
 
-import Model.ClienteCompra;
-import Model.DAO.DAOVenda;
-import Model.ItemVendido;
-import Model.Venda;
 import java.util.ArrayList;
+
+import main.java.com.cc8850.projeto.Model.ClienteCompra;
+import main.java.com.cc8850.projeto.Model.ItemVendido;
+import main.java.com.cc8850.projeto.Model.Venda;
+import main.java.com.cc8850.projeto.Model.DAO.DAOVenda;
 
 /**
  *

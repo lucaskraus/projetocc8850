@@ -5,9 +5,11 @@
  */
 package View;
 
-import Controller.ControllerLogin;
 import java.util.ArrayList;
+
 import javax.swing.JOptionPane;
+
+import main.java.com.cc8850.projeto.Controller.ControllerLogin;
 
 /**
  *
@@ -75,7 +77,6 @@ public class frm_login extends javax.swing.JDialog {
 
         cbxPrivilegio.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
-        txtLogin.setText("jTextField1");
 
         btOK.setText("OK");
         btOK.addActionListener(new java.awt.event.ActionListener() {
@@ -91,7 +92,10 @@ public class frm_login extends javax.swing.JDialog {
             }
         });
 
-        txtSenha.setText("jPasswordField1");
+        txtLogin.setText("");
+
+        txtSenha.setText("");
+
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

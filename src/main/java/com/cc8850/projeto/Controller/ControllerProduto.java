@@ -5,9 +5,10 @@
  */
 package Controller;
 
-import Model.DAO.DAOProduto;
-import Model.Produto;
 import java.util.ArrayList;
+
+import main.java.com.cc8850.projeto.Model.Produto;
+import main.java.com.cc8850.projeto.Model.DAO.DAOProduto;
 
 /**
  *

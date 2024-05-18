@@ -5,14 +5,15 @@
  */
 package Model.DAO;
 
-import Model.Cliente;
-import Model.ClientePF;
-import Model.ClientePJ;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
+
+import main.java.com.cc8850.projeto.Model.Cliente;
+import main.java.com.cc8850.projeto.Model.ClientePF;
+import main.java.com.cc8850.projeto.Model.ClientePJ;
 
 /**
  *
