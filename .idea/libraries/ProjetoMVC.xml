@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ProjetoMVC">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/ProjetoMVC.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
