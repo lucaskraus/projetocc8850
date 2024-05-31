@@ -19,8 +19,8 @@ public class DAOConexaoDB {
     public Connection connection;
 
     public Connection getConexao() {
-        final String DRIVER = "com.mysql.jdbc.Driver";
-        final String URL = "jdbc:mysql://localhost:3306/db_venda" 
+        final String DRIVER = "com.mysql.cj.jdbc.Driver";
+        final String URL = "jdbc:mysql://sql.freedb.tech:3306/freedb_projetocc8850" 
                     + "?verifyServerCertificate=true"
                     + "&useSSL=false"
                     + "&requireSSL=false"
@@ -28,7 +28,7 @@ public class DAOConexaoDB {
 
         try {
             Class.forName(DRIVER);
-            connection = DriverManager.getConnection(URL, "root", "senha100");
+            connection = DriverManager.getConnection(URL, "freedb_projeto", "Bp8hy*X&VU&zbNr");
             return connection;
 
         } catch (ClassNotFoundException e) {
