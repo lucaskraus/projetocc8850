@@ -5,13 +5,13 @@
  */
 package Model.DAO;
 
-import Model.DAO.DAOConexaoDB;
-import Model.Login;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
+
+import main.java.com.cc8850.projeto.Model.Login;
 
 /**
  *

@@ -5,12 +5,13 @@
  */
 package View;
 
-import Controller.ControllerVenda;
-import Model.*;
-import Model.ItemVendido;
-import Model.Venda;
-import Model.VendaItem;
 import javax.swing.JFrame;
+
+import main.java.com.cc8850.projeto.Controller.ControllerVenda;
+import main.java.com.cc8850.projeto.Model.ClienteCompra;
+import main.java.com.cc8850.projeto.Model.ItemVendido;
+import main.java.com.cc8850.projeto.Model.Venda;
+import main.java.com.cc8850.projeto.Model.VendaItem;
 /**
  *
  * @author Christian

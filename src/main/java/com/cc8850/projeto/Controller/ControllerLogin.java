@@ -5,9 +5,10 @@
  */
 package Controller;
 
-import Model.DAO.DAOLogin;
-import Model.Login;
 import java.util.ArrayList;
+
+import main.java.com.cc8850.projeto.Model.Login;
+import main.java.com.cc8850.projeto.Model.DAO.DAOLogin;
 
 /**
  *

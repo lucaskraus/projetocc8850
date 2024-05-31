@@ -5,26 +5,26 @@
  */
 package View;
 
-;
-import Controller.ControllerCliente;
-import Controller.ControllerProduto;
-import Controller.ControllerVenda;
-import Model.Cliente;
-import Model.Produto;
-import Model.Venda;
-import Model.VendaItem;
+
 import java.awt.event.ActionEvent;
-import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
 import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
+
 import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
 import javax.swing.JPopupMenu;
 import javax.swing.table.DefaultTableModel;
+
+import main.java.com.cc8850.projeto.Controller.ControllerCliente;
+import main.java.com.cc8850.projeto.Controller.ControllerProduto;
+import main.java.com.cc8850.projeto.Controller.ControllerVenda;
+import main.java.com.cc8850.projeto.Model.Cliente;
+import main.java.com.cc8850.projeto.Model.Produto;
+import main.java.com.cc8850.projeto.Model.Venda;
+import main.java.com.cc8850.projeto.Model.VendaItem;
 
 /**
  *

@@ -5,15 +5,17 @@
  */
 package View;
 
-import Controller.ControllerCliente;
-import Model.Cliente;
-import Model.ClientePF;
-import Model.ClientePJ;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
+
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
+
+import main.java.com.cc8850.projeto.Controller.ControllerCliente;
+import main.java.com.cc8850.projeto.Model.Cliente;
+import main.java.com.cc8850.projeto.Model.ClientePF;
+import main.java.com.cc8850.projeto.Model.ClientePJ;
 
 /**
  *

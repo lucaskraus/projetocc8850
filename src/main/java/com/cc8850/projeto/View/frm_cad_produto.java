@@ -5,12 +5,14 @@
  */
 package View;
 
-import Controller.ControllerProduto;
-import Model.Produto;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
+
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
+
+import main.java.com.cc8850.projeto.Controller.ControllerProduto;
+import main.java.com.cc8850.projeto.Model.Produto;
 
 /**
  *
