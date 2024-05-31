@@ -7,8 +7,8 @@ package Controller;
 
 import java.util.ArrayList;
 
-import main.java.com.cc8850.projeto.Model.Produto;
-import main.java.com.cc8850.projeto.Model.DAO.DAOProduto;
+import com.cc8850.projeto.Model.Produto;
+import com.cc8850.projeto.Model.DAO.DAOProduto;
 
 /**
  *

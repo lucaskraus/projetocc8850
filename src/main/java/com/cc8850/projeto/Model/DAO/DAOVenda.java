@@ -12,12 +12,12 @@ import java.sql.Statement;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 
-import main.java.com.cc8850.projeto.Model.ClienteCompra;
-import main.java.com.cc8850.projeto.Model.ClientePF;
-import main.java.com.cc8850.projeto.Model.ClientePJ;
-import main.java.com.cc8850.projeto.Model.ItemVendido;
-import main.java.com.cc8850.projeto.Model.Venda;
-import main.java.com.cc8850.projeto.Model.VendaItem;
+import com.cc8850.projeto.Model.ClienteCompra;
+import com.cc8850.projeto.Model.ClientePF;
+import com.cc8850.projeto.Model.ClientePJ;
+import com.cc8850.projeto.Model.ItemVendido;
+import com.cc8850.projeto.Model.Venda;
+import com.cc8850.projeto.Model.VendaItem;
 
 /**
  *

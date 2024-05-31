@@ -7,10 +7,10 @@ package Controller;
 
 import java.util.ArrayList;
 
-import main.java.com.cc8850.projeto.Model.ClienteCompra;
-import main.java.com.cc8850.projeto.Model.ItemVendido;
-import main.java.com.cc8850.projeto.Model.Venda;
-import main.java.com.cc8850.projeto.Model.DAO.DAOVenda;
+import com.cc8850.projeto.Model.ClienteCompra;
+import com.cc8850.projeto.Model.ItemVendido;
+import com.cc8850.projeto.Model.Venda;
+import com.cc8850.projeto.Model.DAO.DAOVenda;
 
 /**
  *

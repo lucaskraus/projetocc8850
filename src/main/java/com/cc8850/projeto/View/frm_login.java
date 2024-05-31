@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 import javax.swing.JOptionPane;
 
-import main.java.com.cc8850.projeto.Controller.ControllerLogin;
+import com.cc8850.projeto.Controller.ControllerLogin;
 
 /**
  *
