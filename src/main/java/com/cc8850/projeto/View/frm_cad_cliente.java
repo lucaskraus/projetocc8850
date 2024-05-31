@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package View;
+package com.cc8850.projeto.View;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -12,10 +12,10 @@ import java.util.Date;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
-import main.java.com.cc8850.projeto.Controller.ControllerCliente;
-import main.java.com.cc8850.projeto.Model.Cliente;
-import main.java.com.cc8850.projeto.Model.ClientePF;
-import main.java.com.cc8850.projeto.Model.ClientePJ;
+import com.cc8850.projeto.Controller.ControllerCliente;
+import com.cc8850.projeto.Model.Cliente;
+import com.cc8850.projeto.Model.ClientePF;
+import com.cc8850.projeto.Model.ClientePJ;
 
 /**
  *

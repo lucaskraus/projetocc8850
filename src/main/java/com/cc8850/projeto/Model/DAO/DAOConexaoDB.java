@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Model.DAO;
+package com.cc8850.projeto.Model.DAO;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

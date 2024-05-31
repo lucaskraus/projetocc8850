@@ -1,19 +1,20 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package Controller;
+ 
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+package com.cc8850.projeto.Controller;
 
 import java.util.ArrayList;
 
-import main.java.com.cc8850.projeto.Model.Cliente;
-import main.java.com.cc8850.projeto.Model.DAO.DAOCliente;
+import com.cc8850.projeto.Model.Cliente;
+import com.cc8850.projeto.Model.DAO.DAOCliente;
 
 /**
  *
- * @author Christian
- */
+ 
+@author Christian*/
 public class ControllerCliente {
 
     public ArrayList<Cliente> getClientes() {

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Model.DAO;
+package com.cc8850.projeto.Model.DAO;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -11,7 +11,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 
-import main.java.com.cc8850.projeto.Model.Login;
+import com.cc8850.projeto.Model.Login;
 
 /**
  *
