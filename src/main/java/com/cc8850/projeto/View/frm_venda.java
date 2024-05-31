@@ -18,13 +18,13 @@ import javax.swing.JOptionPane;
 import javax.swing.JPopupMenu;
 import javax.swing.table.DefaultTableModel;
 
-import main.java.com.cc8850.projeto.Controller.ControllerCliente;
-import main.java.com.cc8850.projeto.Controller.ControllerProduto;
-import main.java.com.cc8850.projeto.Controller.ControllerVenda;
-import main.java.com.cc8850.projeto.Model.Cliente;
-import main.java.com.cc8850.projeto.Model.Produto;
-import main.java.com.cc8850.projeto.Model.Venda;
-import main.java.com.cc8850.projeto.Model.VendaItem;
+import com.cc8850.projeto.Controller.ControllerCliente;
+import com.cc8850.projeto.Controller.ControllerProduto;
+import com.cc8850.projeto.Controller.ControllerVenda;
+import com.cc8850.projeto.Model.Cliente;
+import com.cc8850.projeto.Model.Produto;
+import com.cc8850.projeto.Model.Venda;
+import com.cc8850.projeto.Model.VendaItem;
 
 /**
  *

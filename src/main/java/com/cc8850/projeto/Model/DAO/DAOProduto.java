@@ -11,7 +11,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 
-import main.java.com.cc8850.projeto.Model.Produto;
+import com.cc8850.projeto.Model.Produto;
 
 /**
  *
