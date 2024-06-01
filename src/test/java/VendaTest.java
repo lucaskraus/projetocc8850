@@ -19,7 +19,7 @@ public class VendaTest {
     private VendaItem vendaItem1;
     private VendaItem vendaItem2;
 
-    @BeforeAll
+    @BeforeEach
     public void setUp() {
         cliente = new Cliente();
         cliente.setIdCliente(1);

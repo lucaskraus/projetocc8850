@@ -12,7 +12,7 @@ public class ItemVendidoTest {
     private Produto produto;
     private ItemVendido itemVendido;
 
-    @BeforeAll
+    @BeforeEach
     public void setUp() {
         produto = new Produto(1, "Produto Teste", 10.5f);
         itemVendido = new ItemVendido(produto, 5);

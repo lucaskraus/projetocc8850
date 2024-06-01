@@ -12,7 +12,7 @@ public class ClienteCompraTest {
     private Cliente cliente;
     private ClienteCompra clienteCompra;
 
-    @BeforeAll
+    @BeforeEach
     public void setUp() {
         cliente = new Cliente();
         cliente.setIdCliente(1);

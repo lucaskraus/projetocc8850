@@ -15,7 +15,7 @@ public class ClientePFTest {
     private ClientePF cliente;
     private SimpleDateFormat dateFormat;
 
-    @BeforeAll
+    @BeforeEach
     public void setUp() {
         cliente = new ClientePF(0, null, null, null, 0);
         dateFormat = new SimpleDateFormat("dd/MM/yyyy");

@@ -10,7 +10,7 @@ public class LoginTest {
 
     private Login login;
 
-    @BeforeAll
+    @BeforeEach
     public void setUp() {
         login = new Login("usuario", "senha123", "Nome do Usuário", "Administrador");
     }

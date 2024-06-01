@@ -16,7 +16,7 @@ public class ClienteTest {
     private Cliente cliente;
     private SimpleDateFormat dateFormat;
 
-    @BeforeAll
+    @BeforeEach
     public void setUp() {
         cliente = new Cliente();
         dateFormat = new SimpleDateFormat("dd/MM/yyyy");

@@ -10,7 +10,7 @@ public class ProdutoTest {
 
     private Produto produto;
 
-    @BeforeAll
+    @BeforeEach
     public void setUp() {
         produto = new Produto(1, "Produto Teste", 10.5f);
     }
