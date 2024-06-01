@@ -1,4 +1,6 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -8,7 +10,7 @@ public class LoginTest {
 
     private Login login;
 
-    @BeforeEach
+    @BeforeAll
     public void setUp() {
         login = new Login("usuario", "senha123", "Nome do Usuário", "Administrador");
     }

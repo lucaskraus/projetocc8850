@@ -1,4 +1,6 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -10,7 +12,7 @@ public class ItemVendidoTest {
     private Produto produto;
     private ItemVendido itemVendido;
 
-    @BeforeEach
+    @BeforeAll
     public void setUp() {
         produto = new Produto(1, "Produto Teste", 10.5f);
         itemVendido = new ItemVendido(produto, 5);

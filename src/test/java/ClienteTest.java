@@ -1,4 +1,6 @@
 import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -14,7 +16,7 @@ public class ClienteTest {
     private Cliente cliente;
     private SimpleDateFormat dateFormat;
 
-    @BeforeEach
+    @BeforeAll
     public void setUp() {
         cliente = new Cliente();
         dateFormat = new SimpleDateFormat("dd/MM/yyyy");
